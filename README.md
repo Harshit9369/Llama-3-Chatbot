@@ -7,6 +7,7 @@ Streamlit Chatbot with Llama-3 chat
 Before running the Streamlit Chatbot with Memory, you need to have the following installed:
 
 1. Python (version 3.6 or higher)
+2. Ollama (llama3 model - 4.7 GB) 
 
 ## Installation
 
