@@ -3,6 +3,10 @@ import streamlit as st
 
 llm = Ollama(model="llama3")
 
+st.set_page_config(page_title="Llama3 Chatbot", layout="centered")
+
+st.title("Llama3 Chatbot Infinite Loop")
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
